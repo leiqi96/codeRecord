@@ -1,4 +1,4 @@
-package com.java.reflection;
+package com.anquan.reflection;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package com.java.reflection;
+package com.anquan.reflection;
 
 public class StudentInvoke extends PersonInvoke{  
     private void method1(Integer age) {  

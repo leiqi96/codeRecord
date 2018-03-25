@@ -1,9 +1,10 @@
-package com.java.reflection;
+package com.anquan.reflection;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import com.java.reflection.InvokeUtlities;
+
+import com.anquan.reflection.InvokeUtlities;
 
 public class TestInvoke {
 
