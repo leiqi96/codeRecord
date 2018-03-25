@@ -1,0 +1,62 @@
+derby.log
+override.properties
+.metadata
+bin/
+tmp/
+.DS_Store
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+*.class
+installer.log
+temp_dsminstall.install4j
+module*.jar
+report*.jar
+
+
+SaaSDemo/build/
+
+# Eclipse Core
+.project
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+# Syntactically Awesome Style Sheets Cache
+.sass-cache
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Tests
+
+
+# Reports
+
+
+*.tld
