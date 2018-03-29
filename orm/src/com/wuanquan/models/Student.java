@@ -15,6 +15,9 @@ import com.wuanquan.annotation.*;
     );
  */
 
+//Student这个类里只是做了些标记
+
+
 @Table(name="student")
 public class Student {
     @Id(name = "student_id")

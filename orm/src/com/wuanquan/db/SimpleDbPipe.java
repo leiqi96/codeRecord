@@ -8,6 +8,12 @@ import com.wuanquan.annotation.Id;
 import com.wuanquan.annotation.Table;
 
 
+
+//Student这个类里只是做了些标记，这里的element就是Student类的实例
+//JdbcUtils简单封装了sql语句
+//SimplDbpipe.add(element)是将读取出element的Class，获取Class的字段以及element里字段的具体
+//然后调用JdbcUtils里的函数
+
 public class SimpleDbPipe<E> {
 
     private static final String  SPACE = " "; 
