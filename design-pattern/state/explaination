@@ -1,0 +1,12 @@
+名称：状态模式
+解释：
+	允许一个对象在其内部状态改变时改变它的行为。
+	
+	GumballMachine是这个对象，当这个对象的状态发生变化时，这个对象的行为也改变了
+	
+	将state抽象出来，每个具体的状态实现state，其行为是state来决定的
+	
+	
+	GumballMachine可以持有各种ConcreteState的实例，某个具体的state也会持有GumballMachine对象
+	
+	当一个具体的state类的行为使状态发生变化后，GumballMachine对象的state设置为新的具体state
